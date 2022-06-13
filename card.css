@@ -1,3 +1,43 @@
-html {
-    background-color: gray;
+body {
+    background-color: #ccc;
+    font-family: Helvetica, sans-serif;
+    color: #222;
+}
+
+img {
+    width: 100%;
+}
+
+.card {
+    background-color: #f3f3f3;
+    margin: 0 auto;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    border: 1px solid #aaa
+}
+
+.card .avatar {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    width: 100px;
+    border-radius: 50%;
+    margin-top: -50px;
+}
+
+.contacts {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.contacts li {
+    width: 30px;
+}
+
+.contacts li a img {
+    transition: opacity ease-in-out 0.2s;
+}
+
+.contacts li a img:hover {
+    opacity: 0.5;
 }
